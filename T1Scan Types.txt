@@ -1,0 +1,84 @@
+Scan Types
+---------------------------------------
+-sS : SYN scan
+
+-sT : TCP connect scan
+
+-sU : UDP scan
+
+-sN : Null scan
+
+-sF : FIN scan
+
+-sX : Xmas scan
+
+-sA : ACK scan
+
+-sC : Script scan
+
+-sV : Service version detection
+
+-A : Aggressive scan
+
+-O : OS detection
+
+-p : Port selection
+
+-Pn : No ping (skip host discovery)
+
+-T : Timing template
+
+Options / Flags
+---------------------------------------
+-n : No DNS resolution
+
+-R : Always resolve
+
+-6 : IPv6 scan
+
+-v : Verbose mode
+
+-oN : Normal output
+
+-oX : XML output
+
+-oG : Greppable output
+
+--open : Show only open ports
+
+--script : NSE script engine
+
+--top-ports : Scan top ports
+
+--reason : Show reason for each port state
+
+--traceroute : Trace route
+
+
+
+
+Ports and applications,related to port scanning and network services.
+------------------------------------
+Key points:
+
+Port scanning:
+
+Checks which ports are open on a target device.
+
+Helps find active ports used by applications.
+
+Applications and default ports:
+
+Application	Port(s)
+HTTP	80-21
+HTTPS	443
+DNS	53
+FTP	20-21
+Telnet	23
+DHCP	67-68
+POP3	110
+IMAP	143
+SNMP	161
+SSH	22
+NTP	123
+SMTP	25
